@@ -1,41 +1,37 @@
 <html>
 <head>
-<title>Duncan's Just-In-Time Donuts</title>
-<link rel="stylesheet" type="text/css" href="donuts.css" />
-<script type="text/javascript">
-function updateOrder() {
-const TAXRATE;
-const DONUTPRICE;
-var numCakeDonuts = document.getElementById("cakedonuts").value;
-var numGlazedDonuts = document.getElementById("glazeddonuts").value;
-var subTotal = (numCakeDonuts + numGlazedDonuts) * DONUTPRICE;
-var tax = subTotal * TAXRATE;
-var total = subTotal + tax;
-}
-function placeOrder() {
-// Submit order to server...
-form.submit();
-}
-</script>
+<title>register page</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" type="text/css" href="css/style1.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" media="all" />
 </head>
 <body>
-<div id="frame">
-...
-<form name="orderform" action="donuts.php" method="POST">
-...
-<div class="field">
-# of cake donuts: <input type="text" id="cakedonuts" name="cakedonuts"
-value="" onchange="updateOrder();" />
+<div class="container">
+			
+            
+			<header>
+				<h1></span> Get your password</h1>
+            </header>   
+           <script type="text/javascript">
+    
+    
+ 
+    </script>   
+                
+      <div  class="form">
+    		<form id="contactform" action="Forgotservlet" method="POST"> 
+    			
+                <input id="username" name="userId" placeholder="*firstname" required="" tabindex="2" type="text"> 
+                <input id="email" name="email" placeholder="*example@domain.com" required="" type="email"> 
+    			<input id="username" name="userId" placeholder="*userId" required="" tabindex="2" type="text"> 
+                <input id="email" name="email" placeholder="password" required="" type="email"> 
+      
+         <center><input class="buttom" name="submit" id="submit" tabindex="5" value="submit!" type="submit"> </center>	 
+   </form> 
+</div>      
 </div>
-<div class="field">
-# of glazed donuts: <input type="text" id="glazeddonuts"
-name="glazeddonuts" value="" onchange="updateOrder();" />
-</div>
-...
-<div class="field">
-<input type="button" value="Place Order"
-onclick="placeOrder(this.form);" />
-</div>
-</form>
-</div>
+
 </body>
+</html>
