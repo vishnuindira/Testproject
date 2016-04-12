@@ -23,10 +23,10 @@
       <div  class="form">
     		<form id="contactform" action="Forgotservlet" method="POST"> 
     			
-                <input id="username" name="userId" placeholder="*firstname" required="" tabindex="2" type="text"> 
+                <input id="username" name="name" placeholder="*firstname" required="" tabindex="2" type="text"> 
                 <input id="email" name="email" placeholder="*example@domain.com" required="" type="email"> 
     			<input id="username" name="userId" placeholder="*userId" required="" tabindex="2" type="text"> 
-                <input id="email" name="email" placeholder="password" required="" type="email"> 
+                <input id="email" name="password" placeholder="password" required="" type="email"> 
       
          <center><input class="buttom" name="submit" id="submit" tabindex="5" value="submit!" type="submit"> </center>	 
    </form> 
