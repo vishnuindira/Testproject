@@ -56,7 +56,7 @@ public class RegisterServlet extends HttpServlet {
 				 request.getRequestDispatcher("successregistration.jsp").forward(request, response);
 				 
 			 }else{
-				 out.println("<h1>Registration Failed</h1>");
+				 out.println("<h1>Registration Failed!</h1>");
 				 out.println("To try again<a href=register.jsp>Click here</a>");
 			 }
 			 out.println("</center>");
