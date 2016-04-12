@@ -1,0 +1,42 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+
+<servlet>
+ 	<servlet-name>login</servlet-name>
+ 	<servlet-class>com.lxisoft.chakra.controller.LoginServlet</servlet-class>
+ </servlet>
+ <servlet>
+ 	<servlet-name>register</servlet-name>
+ 	<servlet-class>com.lxisoft.chakra.controller.RegisterServlet</servlet-class>
+ </servlet>
+ <servlet>
+ 	<servlet-name>forgot</servlet-name>
+	<servlet-class>com.lxisoft.chakra.controller.Forgotservlet</servlet-class>
+ </servlet> 
+ <servlet-mapping>
+ 	<servlet-name>login</servlet-name>
+ 	<url-pattern>/LoginServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+ 	<servlet-name>register</servlet-name>
+ 	<url-pattern>/RegisterServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+ 	<servlet-name>forgot</servlet-name>
+ 	<url-pattern>/Forgotservlet</url-pattern>
+ </servlet-mapping>
+ 
+    <welcome-file-list>
+		<welcome-file>login.jsp</welcome-file>
+	</welcome-file-list>
+	
+	
+  <error-page>
+<error-code>404</error-code>
+<location>/error404.jsp</location>
+
+</error-page>
+</web-app>

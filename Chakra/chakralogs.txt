@@ -1,0 +1,4 @@
+2015-10-19 12:13:52 INFO  Testclass:13 - ******* going check
+2015-10-19 12:13:52 INFO  Testclass:16 - java.lang.ArithmeticException: / by zero
+2015-10-19 12:17:02 INFO  Testclass:13 - ******* going check
+2015-10-19 12:17:02 INFO  Testclass:16 - java.lang.ArithmeticException: / by zero

@@ -1,0 +1,9 @@
+com\lxisoft\chakra\services\MailService.class
+com\lxisoft\chakra\controller\Forgotservlet.class
+com\lxisoft\chakra\hibernateutils\HibernateUtil.class
+com\lxisoft\chakra\controller\RegisterServlet.class
+com\lxisoft\chakra\services\RegisterService.class
+com\lxisoft\chakra\controller\LoginServlet.class
+com\lxisoft\chakra\services\MailService$1.class
+com\lxisoft\chakra\services\LoginService.class
+com\lxisoft\chakra\model\User.class

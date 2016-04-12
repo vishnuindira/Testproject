@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="com.lxisoft.chakra.model.User" table="USER_TABLE">
+<meta attribute="class-description">
+this class contails the employee details
+</meta>
+<id name="id" type="long" column="id">
+<generator class="identity"></generator>
+</id>
+<property name="firstName" column="empfname"  type="string"   />
+<property name="email" column="empemail"  type="string"  unique="true" not-null="true" />
+<property name="userId" column="empid"  type="string"  unique="true" not-null="true" />
+<property name="password" column="emppassword"  type="string"  not-null="true"  />
+
+
+</class>
+</hibernate-mapping>
